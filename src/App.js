@@ -1,19 +1,17 @@
-
-import './App.css';
-import Home from './pages/home/Home';
-import Topbar from './components/topbar/Topbar';
-import Single from './pages/single/Single';
+import "./App.css";
+import Home from "./pages/home/Home";
+import Topbar from "./components/topbar/Topbar";
+import Single from "./pages/single/Single";
+import Write from "./pages/write/Write";
 
 function App() {
   return (
     <div>
- <Topbar/>
- <Home/>
-
- <Single/>
+      <Topbar />
+      <Home />
+      <Single />
+      <Write/>
     </div>
-   
-    
   );
 }
 
